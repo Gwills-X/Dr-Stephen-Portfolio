@@ -45,7 +45,7 @@ const Hero = () => {
 					animate={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 0.8, delay: 0.2 }}
 					className='flex justify-center'>
-					<div className='w-64 sm:w-72 md:w-80 lg:w-96 aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border-4 border-blue-700 bg-gray-800 mb-5 '>
+					<div className='w-64 sm:w-72 md:w-80 lg:w-96 aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border-4 border-blue-200 bg-gray-800 mb-5 '>
 						<img
 							src={profileImage}
 							alt='Dr Stephen Aderinto'
