@@ -25,18 +25,18 @@ const Navbar = () => {
 		{ name: "Contact", path: "/contact" },
 	];
 
-	const activeClass = "text-blue-400 font-bold border-b-2 border-blue-400";
+	const activeClass = "text-blue-800 font-bold border-b-2 border-blue-800";
 	const inactiveClass =
-		"text-white hover:text-blue-400 font-semibold transition";
+		"text-black hover:text-blue-800 font-semibold transition";
 
 	return (
 		<nav
-			className={`fixed w-full z-50 bg-gray-900/90 backdrop-blur-md transition-all duration-300 shadow-md ${
+			className={`fixed w-full z-50  backdrop-blur-md transition-all duration-300 shadow-md ${
 				scrollPoint > 50 ? "" : "bg-transparent pt-5"
 			}`}>
 			<div className='max-w-7xl mx-auto flex justify-between items-center px-6 py-4'>
 				{/* LOGO */}
-				<NavLink to='/' className='text-2xl font-bold text-blue-400'>
+				<NavLink to='/' className='text-2xl font-bold text-blue-800'>
 					Dr. Stephen Aderinto
 				</NavLink>
 

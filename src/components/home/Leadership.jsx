@@ -15,8 +15,8 @@ const leadershipData = [
 
 const Leadership = () => {
 	return (
-		<section className='relative py-24 px-6 bg-gray-900 text-white'>
-			<div className='max-w-6xl mx-auto grid md:grid-cols-2 gap-12'>
+		<section className="relative py-24 px-6 bg-gray-50">
+			<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
 				{leadershipData.map((item, i) => (
 					<motion.div
 						key={i}
@@ -24,11 +24,14 @@ const Leadership = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						viewport={{ once: true }}
 						transition={{ delay: i * 0.1 }}
-						className='p-10 rounded-2xl bg-blue-800 shadow-lg hover:bg-blue-700 hover:shadow-2xl transition'>
-						<h3 className='text-2xl md:text-3xl font-bold mb-4 text-blue-100'>
+						className="p-10 rounded-2xl bg-white border border-gray-200 shadow-lg hover:shadow-xl transition"
+					>
+						<h3 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
 							{item.title}
 						</h3>
-						<p className='text-blue-200 leading-relaxed'>{item.description}</p>
+						<p className="text-gray-600 leading-relaxed">
+							{item.description}
+						</p>
 					</motion.div>
 				))}
 			</div>
