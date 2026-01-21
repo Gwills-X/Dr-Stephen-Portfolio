@@ -58,7 +58,7 @@ const Navbar = () => {
 				<div className='md:hidden'>
 					<button
 						onClick={() => setIsOpen(!isOpen)}
-						className='text-white text-2xl focus:outline-none'>
+						className='text-black text-2xl focus:outline-none'>
 						{isOpen ? <FaTimes /> : <FaBars />}
 					</button>
 				</div>
