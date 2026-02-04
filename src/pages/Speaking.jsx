@@ -2,10 +2,12 @@ import { motion } from "framer-motion";
 import speakerProfileImage from "../assets/images/IMG-20260110-WA0029.jpg";
 
 const speakingTopics = [
-	{ title: "Leadership & Character Formation", description: "Practical strategies for building disciplined, responsible, and impactful leaders rooted in faith and values." },
-	{ title: "Academic Excellence & Scholarship Mentorship", description: "Guidance on achieving high academic standards, securing scholarships, and navigating global education opportunities." },
-	{ title: "Entrepreneurship & Innovation", description: "Insights into creating sustainable ventures, innovative thinking, and driving impact in Africa and beyond." },
-	{ title: "Faith in Action", description: "Inspiring talks on integrating faith into everyday life, service, and leadership for meaningful change." },
+// need to change the description for the title
+	{ title: "Academic Excellence & Research Leadership", description: "Practical strategies for building disciplined, responsible, and impactful leaders rooted in faith and values." },
+	{ title: "Entrepreneurship & Venture Development", description: "Guidance on achieving high academic standards, securing scholarships, and navigating global education opportunities." },
+	{ title: "Leadership, Mentorship, Tutorship, and Guidance & Counselling", description: "Insights into creating sustainable ventures, innovative thinking, and driving impact in Africa and beyond." },
+	{ title: "Marriage & Family Life", description: "Inspiring talks on integrating faith into everyday life, service, and leadership for meaningful change." },
+	{ title: "Spiritual Growth and Values", description: "Inspiring talks on integrating faith into everyday life, service, and leadership for meaningful change." },
 ];
 
 const Speaking = () => {
@@ -23,14 +25,14 @@ const Speaking = () => {
 						Speaking & Consulting
 					</h1>
 					<p className="text-gray-700 leading-relaxed mb-6">
-						Invite Dr. Stephen Aderinto to speak at your conference, workshop,
-						or leadership program. He brings knowledge, inspiration, and actionable insights.
+						Invite Dr. Stephen O. Aderinto to speak at your conference, workshop,
+						or leadership program for a blend of deep expertise, inspiration, and practical, actionable insights.
 					</p>
 					<a
 						href="/contact"
 						className="inline-block px-10 py-4 bg-gradient-to-r from-blue-700 to-blue-500 text-white font-semibold rounded-full shadow-md hover:shadow-lg transition"
 					>
-						Invite Dr. Stephen to Speak
+						Invite Dr. Aderinto to Speak
 					</a>
 				</motion.div>
 

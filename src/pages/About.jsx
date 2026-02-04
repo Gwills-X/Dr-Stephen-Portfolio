@@ -16,10 +16,10 @@ const About = () => {
 							About Dr. Stephen Aderinto
 						</h1>
 						<p className="text-gray-600 mb-6 text-lg md:text-xl tracking-wide">
-							Chemist · Academic Mentor · Scholar · Leadership & Faith Advocate
+							Scientist · Academic Science Entrepreneur · Mentor · Leadership & Faith Advocate
 						</p>
 						<p className="text-gray-700 leading-relaxed mb-6">
-							Raising global scholars, shaping leaders, and stewarding knowledge
+							Raising global scholars and thinkers, shaping leaders, and stewarding knowledge
 							for impact.
 						</p>
 					</motion.div>

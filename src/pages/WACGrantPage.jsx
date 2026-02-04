@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import founderImage from "../assets/images/IMG-20260110-WA0031.jpg";
+import founderImage from "../assets/images/IMG-20260131-WA0021.jpg";
 import logo from "../assets/images/Screenshot_2026-01-12_150920-removebg-preview.png";
 
 const WACGrantPage = () => {

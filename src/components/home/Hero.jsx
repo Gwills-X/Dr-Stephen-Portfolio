@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImage from "../../assets/images/IMG-20260110-WA0030.jpg";
+import profileImage from "../../assets/images/IMG-20260131-WA0008.jpg";
 
 const Hero = () => {
 	return (
@@ -18,7 +18,7 @@ const Hero = () => {
 					</h1>
 
 					<p className="text-base sm:text-lg md:text-xl text-gray-600 mb-4 tracking-wide">
-						Chemist · Academic Mentor · Scholar · Leadership & Faith Advocate
+						Scientist · Academic Mentor · Scholar · Leadership & Faith Advocate
 					</p>
 
 					<p className="text-gray-500 max-w-xl mx-auto md:mx-0 leading-relaxed mb-8">

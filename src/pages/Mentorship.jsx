@@ -1,12 +1,8 @@
 import { motion } from "framer-motion";
-import profileImage from "../assets/images/IMG-20260110-WA0035.jpg";
+import profileImage from "../assets/images/IMG-20260110-WA0034.jpg";
 
 const mentorshipPrograms = [
-	{
-		title: "One-on-One Discipleship",
-		description:
-			"A personalized 10-week mentorship journey tailored to help women and men grow deeper in faith, purpose, and leadership.",
-	},
+	
 	{
 		title: "Scholarship Guidance",
 		description:
