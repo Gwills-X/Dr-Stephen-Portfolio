@@ -14,11 +14,11 @@ const Hero = () => {
 					className="text-center md:text-left"
 				>
 					<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4 text-gray-900">
-						Dr. Stephen Aderinto
+						Dr. Stephen O. Aderinto
 					</h1>
 
 					<p className="text-base sm:text-lg md:text-xl text-gray-600 mb-4 tracking-wide">
-						Scientist · Academic Mentor · Scholar · Leadership & Faith Advocate
+						Scientist · Academic ·  Mentor · Scholar · Leadership & Faith Advocate
 					</p>
 
 					<p className="text-gray-500 max-w-xl mx-auto md:mx-0 leading-relaxed mb-8">

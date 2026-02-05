@@ -15,8 +15,7 @@ const WACPreview = () => {
 				</motion.h2>
 
 				<p className="text-gray-600 leading-relaxed mb-12 max-w-3xl mx-auto">
-					WAC is committed to raising 5,000 of the brightest African-origin
-					students into the world’s top universities by 2030.
+					By 2030, WAC aims to support 5000 exceptional students of African origin in securing scholarships to the world's leading universities.
 				</p>
 
 				<div className="grid md:grid-cols-4 gap-6 mb-12">

@@ -1,9 +1,11 @@
 import { useState } from "react";
-
+"/src/assets"
 const images = [
-	"/images/lab1.jpg",
-	"/images/conference1.jpg",
-	"/images/lab2.jpg",
+	"/src/assets/images/IMG-20260131-WA0018.jpg",
+	"/src/assets/images/IMG-20260131-WA0028.jpg",
+	"/src/assets/images/IMG-20260131-WA0019.jpg",
+	"/src/assets/images/IMG-20260131-WA0024.jpg",
+	"/src/assets/images/IMG-20260130-WA0048.jpg",
 ];
 
 const Gallery = () => {
@@ -22,7 +24,7 @@ const Gallery = () => {
 							key={i}
 							src={src}
 							onClick={() => setActive(src)}
-							className="rounded-xl cursor-pointer hover:opacity-80"
+							className="rounded-xl cursor-pointer opacity-95 hover:opacity-100 h-[300px] w-[400px]"
 						/>
 					))}
 				</div>

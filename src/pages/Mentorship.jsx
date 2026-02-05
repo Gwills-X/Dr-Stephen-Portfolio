@@ -30,7 +30,7 @@ const Mentorship = () => {
 						Meet Your Mentor
 					</h1>
 					<p className="text-gray-700 leading-relaxed mb-6">
-						Work directly with Dr. Stephen Aderinto in a tailored mentorship
+						Work directly with Dr. Stephen O. Aderinto in a tailored mentorship
 						journey designed to develop your academic, leadership, and faith
 						potential. This program is ideal for ambitious students and young
 						professionals who want to make a meaningful impact.

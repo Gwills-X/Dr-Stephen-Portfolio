@@ -26,7 +26,7 @@ const ResearchHero = () => {
 					<strong>15 peer-reviewed publications</strong>, including high-impact
 					reviews in <em>Chemical Society Reviews</em> and{" "}
 					<em>Materials Chemistry Frontiers</em>, with over{" "}
-					<strong>640 citations (h-index 17)</strong>.
+					<strong>650 citations (h-index 17)</strong>.
 				</motion.p>
 			</div>
 		</section>

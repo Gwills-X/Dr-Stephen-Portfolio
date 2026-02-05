@@ -13,11 +13,11 @@ const AboutPreview = () => {
 					transition={{ duration: 0.8 }}
 				>
 					<h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-						About Dr. Stephen Aderinto
+						About Dr. Stephen O. Aderinto
 					</h2>
 
 					<p className="text-gray-600 leading-relaxed mb-4">
-						Dr. Stephen Aderinto is a chemist, academic mentor, and
+						Dr. Stephen O. Aderinto is a chemist, academic mentor, and
 						science-driven entrepreneur committed to advancing innovation,
 						education, and impact across Africa and beyond.
 					</p>

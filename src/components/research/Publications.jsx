@@ -16,10 +16,10 @@ const Publications = () => {
 							className="flex justify-between items-center p-6 bg-white border rounded-xl shadow-sm"
 						>
 							<div>
-								<h3 className="font-semibold text-gray-900">
+								<h3 className="font-semibold text-gray-900 capitalize">
 									{pub.title}
 								</h3>
-								<p className="text-gray-600 text-sm">{pub.journal}</p>
+								<p className="text-gray-600 text-sm capitalize">{pub.journal}</p>
 							</div>
 
 							<a

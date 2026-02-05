@@ -38,7 +38,7 @@ const Footer = () => {
 				{/* BRAND */}
 				<motion.div variants={item}>
 					<h3 className="text-2xl font-bold text-blue-700 mb-4">
-						Dr. Stephen Aderinto
+						Dr. Stephen O. Aderinto
 					</h3>
 					<p className="text-gray-700 leading-relaxed max-w-md mx-auto md:mx-0">
 						Raising global scholars, shaping leaders, and stewarding knowledge for impact.

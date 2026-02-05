@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImage from "../assets/images/IMG-20260110-WA0032.jpg"; // replace with actual image
+import profileImage from "../assets/images/IMG-20260131-WA0033.jpg"; // replace with actual image
 
 const About = () => {
 	return (
@@ -13,10 +13,10 @@ const About = () => {
 						transition={{ duration: 0.8 }}
 					>
 						<h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-900">
-							About Dr. Stephen Aderinto
+							About Dr. Stephen O. Aderinto
 						</h1>
 						<p className="text-gray-600 mb-6 text-lg md:text-xl tracking-wide">
-							Scientist · Academic Science Entrepreneur · Mentor · Leadership & Faith Advocate
+							Scientist · Academic · Science Entrepreneur · Mentor · Leadership & Faith Advocate
 						</p>
 						<p className="text-gray-700 leading-relaxed mb-6">
 							Raising global scholars and thinkers, shaping leaders, and stewarding knowledge
@@ -54,27 +54,13 @@ const About = () => {
 							Biography
 						</h2>
 						<p className="text-gray-700 leading-relaxed mb-4">
-							Dr. Stephen Aderinto is a chemist, academic mentor, and
-							science-driven entrepreneur committed to advancing innovation,
-							education, and impact. Born and raised in Ogbomosho, Nigeria, he
-							pursued academic excellence from an early age, earning a
-							first-class degree in Chemistry before completing postgraduate
-							studies across China and the United Kingdom.
+							Dr. Stephen O. Aderinto is a bio-inorganic chemist, academic, mentor, and science-driven entrepreneur dedicated to advancing innovation through education, research, and enterprise. Born and raised in Ogbomosho, Nigeria, he demonstrated academic excellence early on, earning a first-class degree in Chemistry before completing postgraduate training—an MSc in China and a PhD in the United Kingdom.
 						</p>
 						<p className="text-gray-700 leading-relaxed mb-4">
-							During the final year of his PhD, Stephen discovered that science
-							achieves its greatest impact when paired with entrepreneurship.
-							This realization led him to join the Science Entrepreneur Club,
-							where he honed his skills in translating research into real-world
-							solutions.
+							During the final year of his PhD at the University of Sheffield, Stephen recognized that scientific research delivers its greatest impact when paired with entrepreneurship. This insight led him to the London-based Science Entrepreneur Club (SEC), where he developed the skills needed to translate scientific ideas into practical, real-world solutions
 						</p>
 						<p className="text-gray-700 leading-relaxed">
-							Alongside his academic and research background, Stephen is a
-							science entrepreneur—constantly researching, building, and
-							contributing at the intersection of science, innovation, and
-							enterprise. He is the founder of initiatives focused on academic
-							mentorship, scholarship guidance, tutoring, and research
-							development.
+							Beyond the laboratory, Stephen is deeply engaged at the intersection of science, innovation, and enterprise. He is the founder of multiple initiatives focused on academic mentorship, scholarship guidance, tutoring, and research development, through which he supports aspiring scholars and researchers in navigating global academic opportunities.
 						</p>
 					</motion.div>
 
