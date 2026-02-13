@@ -49,7 +49,7 @@ const AboutPreview = () => {
 					</p>
 
 					<footer className="mt-4 text-sm text-gray-500 font-medium">
-						— Dr. Stephen Aderinto
+						— Dr. Stephen O. Aderinto
 					</footer>
 				</motion.blockquote>
 

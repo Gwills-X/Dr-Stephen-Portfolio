@@ -37,7 +37,7 @@ const Navbar = () => {
 			<div className='max-w-7xl mx-auto flex justify-between items-center px-6 py-4'>
 				{/* LOGO */}
 				<NavLink to='/' className='text-2xl font-bold text-blue-800'>
-					Dr. Stephen Aderinto
+					Dr. Stephen O. Aderinto
 				</NavLink>
 
 				{/* DESKTOP LINKS */}

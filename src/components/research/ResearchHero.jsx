@@ -19,7 +19,7 @@ const ResearchHero = () => {
 					transition={{ delay: 0.2, duration: 0.6 }}
 					className="text-lg md:text-xl text-gray-700 leading-relaxed"
 				>
-					I am an emerging researcher in <strong>Bioinorganic Chemistry</strong>
+					I am an early-career researcher in <strong>Bioinorganic Chemistry </strong> 
 					with a PhD from the University of Sheffield, specialising in the design
 					of luminescent transition-metal complexes and nanomaterials for
 					anticancer applications. I have authored approximately{" "}
