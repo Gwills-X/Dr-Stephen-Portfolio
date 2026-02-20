@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 import galleryPic1 from "../../assets/images/IMG-20260131-WA0018.jpg";
-import galleryPic2 from "src/assets/images/IMG-20260131-WA0028.jpg";
-import galleryPic3 from "src/assets/images/IMG-20260131-WA0019.jpg";
-import galleryPic4 from "src/assets/images/IMG-20260131-WA0024.jpg";
-import galleryPic5 from "src/assets/images/IMG-20260130-WA0048.jpg";
+import galleryPic2 from "../../assets/images/IMG-20260131-WA0028.jpg";
+import galleryPic3 from "../../assets/images/IMG-20260131-WA0019.jpg";
+import galleryPic4 from "../../assets/images/IMG-20260131-WA0024.jpg";
+import galleryPic5 from "../../assets/images/IMG-20260130-WA0048.jpg";
 const images = [
   galleryPic1,
   galleryPic2,
