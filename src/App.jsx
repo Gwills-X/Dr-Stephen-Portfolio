@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Navbar from "./components/NavBar";
@@ -12,29 +13,29 @@ import Speaking from "./pages/Speaking";
 import Testimonials from "./pages/Testimonials";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-
 const App = () => {
-	return (
-		<div>
-			<Router>
-				<ScrollToTop/>
-				<Navbar />
-				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/about' element={<About />} />
-					<Route path='/media' element={<Media />} />
-					<Route path='/research' element={<Research />} />
-					<Route path='/contact' element={<Contact />} />
-					<Route path='/wac' element={<WACGrantPage />} />
-					<Route path='/mentorship' element={<Mentorship />} />
-					<Route path='/speaking' element={<Speaking />} />
-					<Route path='/testimonials' element={<Testimonials />} />
-					<Route path='*' element={<Home />} />
-				</Routes>
-				<Footer/>
-			</Router>
-		</div>
-	);
+  return (
+    <div>
+      <Router>
+        <ScrollToTop />
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/media' element={<Media />} />
+          <Route path='/research' element={<Research />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/wac' element={<WACGrantPage />} />
+          <Route path='/mentorship' element={<Mentorship />} />
+          <Route path='/speaking' element={<Speaking />} />
+          <Route path='/testimonials' element={<Testimonials />} />
+          <Route path='*' element={<Home />} />
+        </Routes>
+        <Footer />
+        <SpeedInsights />
+      </Router>
+    </div>
+  );
 };
 
 export default App;
