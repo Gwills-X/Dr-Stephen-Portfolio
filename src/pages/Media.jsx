@@ -16,7 +16,10 @@ const articles = [
     title: "Hear Stories of Grad Students Around the World",
     link: "https://cen.acs.org/education/graduate-education/Hear-stories-grad-students-around/96/web/2018/09",
   },
-  { title: "Leadership Principles for Scholars", link: "#" },
+  {
+    title: "Aspiring to promote science in the African context",
+    link: "https://tesselledevelopment.com/research-lives-and-cultures/stephenaderinto",
+  },
   { title: "Faith and Discipline in Education", link: "#" },
 ];
 
