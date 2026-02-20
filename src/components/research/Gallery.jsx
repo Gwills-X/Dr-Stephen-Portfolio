@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import galleryPic1 from "src/assets/images/IMG-20260131-WA0018.jpg";
+import galleryPic1 from "../../assets/images/IMG-20260131-WA0018.jpg";
 import galleryPic2 from "src/assets/images/IMG-20260131-WA0028.jpg";
 import galleryPic3 from "src/assets/images/IMG-20260131-WA0019.jpg";
 import galleryPic4 from "src/assets/images/IMG-20260131-WA0024.jpg";
