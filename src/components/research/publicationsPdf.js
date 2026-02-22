@@ -55,18 +55,18 @@ export const publications = [
   {
     title:
       "Fluorescent and colourimetric 1,8-naphthalimide-appended chemosensors for tracking metal ions",
-    journal: "CrossMark",
+    journal: "Chemical Papers",
     file: "/publications/Publication-10.pdf",
   },
   {
     title:
       "Fluorescent, colourimetric, and ratiometric probes for mercuric(II) ion sensing",
-    journal: "Check for updates",
+    journal: "Chemical Papers",
     file: "/publications/Publication-11.pdf",
   },
   {
     title: "Highly Selective Fluorescent Sensor for Monitoring Cu2+ Ion",
-    journal: "CrossMark",
+    journal: "Chemical Papers",
     file: "/publications/Publication-12.pdf",
   },
   {
@@ -88,7 +88,7 @@ export const publications = [
   },
   {
     title: "A diverse view of science to catalyse change",
-    journal: "Check for updates",
+    journal: "Nature Chemistry",
     file: "/publications/Publication-16.pdf",
   },
 ];

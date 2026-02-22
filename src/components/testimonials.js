@@ -20,6 +20,12 @@ const testimonials = [
     role: "Associate Professor | Neglected Diseases Laboratory",
     text: `As Governance Team Lead at IYCN, Dr. Stephen contributed greatly to strengthening organizational structure and operational efficiency. He consistently demonstrated leadership, attention to detail, and professionalism, ensuring tasks were completed and teams remained aligned.`,
   },
+  {
+    name: "Oguntoyinbo Oluwabori Felix",
+    role: "",
+    text: `During my senior secondary education, beginning from SS2 through SS3, Dr. Aderinto offered consistent financial assistance that significantly eased the burden of my schooling. His support covered my school fees as well as the cost of extra lessons and academic tutorials. At a time when my family was navigating the financial demands associated with changing schools and settling related expenses, his generosity made these obligations far more manageable for my mother and ensured that my education continued without disruption. This support was not merely financial; it provided stability and reassurance during a critical stage of my academic development. Knowing that my educational expenses were taken care of allowed me to focus fully on my studies and maintain strong academic performance. His timely intervention played a vital role in sustaining my academic progress and reinforcing my commitment to excellence.
+`,
+  },
 ];
 
 export default testimonials;
