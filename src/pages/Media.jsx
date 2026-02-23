@@ -1,13 +1,22 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-
+import galleryPic1 from "../assets/images/IMG-20260131-WA0029.jpg";
+import galleryPic2 from "../assets/gallery/IMG-20260220-WA0052.jpg";
+import galleryPic3 from "../assets/gallery/IMG-20260220-WA0050.jpg";
+import galleryPic4 from "../assets/images/IMG-20260131-WA0017.jpg";
+import galleryPic5 from "../assets/gallery/IMG-20260220-WA0041.jpg";
+import galleryPic6 from "../assets/gallery/IMG-20260223-WA0004.jpg";
 // Example gallery images - replace with real images
 const gallery = [
-  { title: "Lab Research", image: "/images/lab1.jpg" },
-  { title: "Conference Talk", image: "/images/conference1.jpg" },
-  { title: "Team Collaboration", image: "/images/team1.jpg" },
-  { title: "Chemicals & Experiments", image: "/images/chemicals1.jpg" },
-  { title: "International Meeting", image: "/images/international1.jpg" },
+  { title: "Lab Research", image: galleryPic1 },
+  { title: "Conference Talk", image: galleryPic2 },
+  {
+    title: "Team Collaboration",
+    image: galleryPic3,
+  },
+  { title: "Chemicals & Experiments", image: galleryPic4 },
+  { title: "International Meeting", image: galleryPic5 },
+  { title: "Laboratory", image: galleryPic6 },
 ];
 
 // Articles, Audio, Video, Downloads
@@ -125,70 +134,6 @@ const Media = () => {
         </div>
       </section>
 
-      {/* Videos Section */}
-      <section className='max-w-6xl mx-auto mb-20'>
-        <motion.h2
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className='text-3xl md:text-4xl font-bold text-gray-900 mb-8'>
-          Video Talks
-        </motion.h2>
-
-        <div className='grid md:grid-cols-2 gap-6'>
-          {videos.map((video, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className='bg-white rounded-2xl shadow-md overflow-hidden'>
-              <iframe
-                src={video.link}
-                title={video.title}
-                className='w-full h-60 md:h-80'
-                allowFullScreen></iframe>
-              <div className='p-4'>
-                <h3 className='text-xl font-semibold text-blue-800'>
-                  {video.title}
-                </h3>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
-      {/* Downloadable PDFs */}
-      <section className='max-w-6xl mx-auto mb-20'>
-        <motion.h2
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className='text-3xl md:text-4xl font-bold text-gray-900 mb-8'>
-          Downloadable PDFs
-        </motion.h2>
-
-        <div className='grid md:grid-cols-3 gap-6'>
-          {downloads.map((file, i) => (
-            <motion.a
-              key={i}
-              href={file.link}
-              target='_blank'
-              rel='noopener noreferrer'
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className='p-6 bg-white rounded-2xl shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer text-blue-800 font-semibold text-center'>
-              {file.title}
-            </motion.a>
-          ))}
-        </div>
-      </section>
-
       {/* Gallery Section */}
       <section className='max-w-6xl mx-auto mb-32'>
         <motion.h2
@@ -204,15 +149,11 @@ const Media = () => {
           {gallery.map((item, i) => (
             <motion.div
               key={i}
-              onClick={() =>
-                setModal({ open: true, image: item.image, title: item.title })
-              }
+              // onClick={() =>
+              //   setModal({ open: true, image: item.image, title: item.title })
+              // }
               className='cursor-pointer rounded-2xl overflow-hidden shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300'>
-              <img
-                src={item.image}
-                alt={item.title}
-                className='w-full h-48 object-cover'
-              />
+              <img src={item.image} alt={item.title} className='w-full h-70 ' />
               <div className='p-4 bg-white text-center'>
                 <h3 className='text-blue-800 font-semibold'>{item.title}</h3>
               </div>
@@ -222,7 +163,7 @@ const Media = () => {
       </section>
 
       {/* Modal */}
-      {modal.open && (
+      {/* {modal.open && (
         <div
           className='fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50'
           onClick={() => setModal({ open: false, image: "", title: "" })}>
@@ -240,7 +181,117 @@ const Media = () => {
             </button>
           </div>
         </div>
-      )}
+      )} */}
+
+      {/* Scholarships, Awards & Grants */}
+      <section className='max-w-7xl mx-auto mb-24 px-6'>
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className='text-center mb-14'>
+          <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-4'>
+            Scholarships, Awards & Research Grants
+          </h2>
+          <p className='text-gray-600 max-w-3xl mx-auto text-lg'>
+            A distinguished record of competitive scholarships, international
+            recognitions, research grants, and academic excellence awards across
+            multiple institutions.
+          </p>
+        </motion.div>
+
+        <div className='grid md:grid-cols-2 gap-10'>
+          {/* Awards & Scholarships */}
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className='bg-white/70 backdrop-blur-xl p-10 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition-all duration-500'>
+            <h3 className='text-2xl font-bold text-blue-900 mb-6'>
+              Selected Nominations, Awards & Scholarships
+            </h3>
+
+            <ul className='space-y-4 text-gray-700 leading-relaxed'>
+              <li>
+                • PhD publication selected as the cover for Issue 17 (2024) of{" "}
+                <span className='font-semibold'>Dalton Transactions</span>.
+              </li>
+              <li>
+                • Royal Microscopical Society (RMS) Bursary Awards (2019–2022).
+              </li>
+              <li>
+                • IUPAC Young Observer Award, Royal Society of Chemistry (RSC),
+                2019.
+              </li>
+              <li>
+                • UoS Doctoral Academy Scholarship (worth &gt;£100,000), 2018.
+              </li>
+              <li>
+                • Monash Graduate Scholarship (MGS) & Monash International
+                Tuition Scholarship (MITS), 2018 (declined).
+              </li>
+              <li>• Cancer Research UK Travel Grant, 2022.</li>
+              <li>
+                • Outstanding International Student Award, Lanzhou Jiaotong
+                University, 2015.
+              </li>
+              <li>
+                • Full-time Master’s Scholarship, King Fahd University of
+                Petroleum and Minerals (declined).
+              </li>
+              <li>
+                • Faculty & Alumni Prize for Best Graduating Student, LAUTECH,
+                2011.
+              </li>
+              <li>• Oyo State Bursary Award, 2010.</li>
+              <li>
+                • Fasoro Timothy Adewale Trust Foundation Scholarship, 2010.
+              </li>
+            </ul>
+          </motion.div>
+
+          {/* Grants */}
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className='bg-gradient-to-br from-blue-50 to-white p-10 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl transition-all duration-500'>
+            <h3 className='text-2xl font-bold text-blue-900 mb-6'>
+              Selected Research Grants
+            </h3>
+
+            <ul className='space-y-4 text-gray-700 leading-relaxed'>
+              <li>
+                • University of Sheffield Institutional Open Access Fund (2024)
+                — Corresponding author & award recipient.
+              </li>
+              <li>
+                • Royal Society of Chemistry (RSC) Grants (Refs.:
+                D22-7948910326, D20-642, T19-3812).
+              </li>
+              <li>
+                • National Natural Science Foundation of China (NSFC), Grant No.
+                21367017 — Contributor.
+              </li>
+              <li>
+                • Natural Science Foundation of Gansu Province (Grant Nos.
+                1212RJZA037 & 17JR5RA090) — Contributor.
+              </li>
+              <li>
+                • Lanzhou Jiaotong University Hundred Youth Talents Training
+                Programme — Contributor.
+              </li>
+              <li>
+                • Graduate Students Innovation Project, Lanzhou Jiaotong
+                University — Contributor.
+              </li>
+            </ul>
+          </motion.div>
+        </div>
+      </section>
     </div>
   );
 };

@@ -19,18 +19,20 @@ const App = () => {
       <Router>
         <ScrollToTop />
         <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/media' element={<Media />} />
-          <Route path='/research' element={<Research />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/wac' element={<WACGrantPage />} />
-          <Route path='/mentorship' element={<Mentorship />} />
-          <Route path='/speaking' element={<Speaking />} />
-          <Route path='/testimonials' element={<Testimonials />} />
-          <Route path='*' element={<Home />} />
-        </Routes>
+        <div className='mt-10'>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/research' element={<Research />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/wac' element={<WACGrantPage />} />
+            <Route path='/mentorship' element={<Mentorship />} />
+            <Route path='/media' element={<Media />} />
+            <Route path='/speaking' element={<Speaking />} />
+            <Route path='/testimonials' element={<Testimonials />} />
+            <Route path='*' element={<Home />} />
+          </Routes>
+        </div>
         <Footer />
         <SpeedInsights />
       </Router>

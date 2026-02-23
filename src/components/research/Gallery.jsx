@@ -8,7 +8,7 @@ import "swiper/css/parallax";
 import galleryPic1 from "../../assets/gallery/IMG-20260131-WA0038.jpg";
 import galleryPic2 from "../../assets/gallery/IMG-20260131-WA0039.jpg";
 import galleryPic3 from "../../assets/gallery/IMG-20260220-WA0040.jpg";
-import galleryPic4 from "../../assets/gallery/IMG-20260220-WA0041.jpg";
+import galleryPic4 from "../../assets/gallery/IMG-20260220-WA0051.jpg";
 import galleryPic5 from "../../assets/gallery/IMG-20260220-WA0042.jpg";
 import galleryPic6 from "../../assets/gallery/IMG-20260220-WA0043.jpg";
 import galleryPic7 from "../../assets/gallery/IMG-20260220-WA0044.jpg";
@@ -17,7 +17,7 @@ import galleryPic9 from "../../assets/gallery/IMG-20260220-WA0046.jpg";
 import galleryPic10 from "../../assets/gallery/IMG-20260220-WA0047.jpg";
 import galleryPic11 from "../../assets/gallery/IMG-20260220-WA0048.jpg";
 import galleryPic12 from "../../assets/gallery/IMG-20260220-WA0049.jpg";
-import galleryPic13 from "../../assets/gallery/IMG-20260220-WA0050.jpg";
+import galleryPic13 from "../../assets/gallery/IMG-20260220-WA0054.jpg";
 
 const images = [
   {
@@ -85,7 +85,7 @@ const Gallery = () => {
                 <img
                   src={image.src}
                   alt={image.caption}
-                  className='w-full h-[420px] object-cover transition-transform duration-700 group-hover:scale-105'
+                  className='w-full h-[300px]  transition-transform duration-700 group-hover:scale-105'
                 />
 
                 {/* Caption Overlay */}
