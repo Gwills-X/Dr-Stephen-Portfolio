@@ -2,7 +2,7 @@
 
 const metrics = [
   { label: "Publications", value: ">18" },
-  { label: "Total Citations", value: ">656" },
+  { label: "Total Citations", value: ">.656" },
   { label: "h-index", value: 18 },
   { label: "Countries Worked In", value: "Nigeria, UK, China" },
 ];
