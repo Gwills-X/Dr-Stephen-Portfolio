@@ -19,6 +19,7 @@ const Navbar = () => {
     { name: "Research", path: "/research" },
     { name: "WAC", path: "/wac" },
     { name: "Mentorship", path: "/mentorship" },
+    { name: "Books", path: "/books" },
     { name: "Media", path: "/media" },
     { name: "Speaking", path: "/speaking" },
     { name: "Testimonials", path: "/testimonials" },

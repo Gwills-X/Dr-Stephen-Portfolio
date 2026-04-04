@@ -13,6 +13,7 @@ import Speaking from "./pages/Speaking";
 import Testimonials from "./pages/Testimonials";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Books from "./pages/Books";
 const App = () => {
   return (
     <div>
@@ -27,6 +28,8 @@ const App = () => {
             <Route path='/contact' element={<Contact />} />
             <Route path='/wac' element={<WACGrantPage />} />
             <Route path='/mentorship' element={<Mentorship />} />
+            <Route path='/books' element={<Books />} />
+
             <Route path='/media' element={<Media />} />
             <Route path='/speaking' element={<Speaking />} />
             <Route path='/testimonials' element={<Testimonials />} />

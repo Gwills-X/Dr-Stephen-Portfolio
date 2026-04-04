@@ -31,7 +31,7 @@ export default function FundraiserSection() {
             href='https://fundraise.cancerresearchuk.org/page/stephens-giving-page-463'
             target='_blank'
             rel='noopener noreferrer'
-            className='inline-block bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition'>
+            className='inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition'>
             Support the Fundraiser
           </a>
         </motion.div>
