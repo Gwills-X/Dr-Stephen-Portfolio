@@ -20,7 +20,7 @@ const Books = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}>
             <div className='flex items-center gap-2 mb-4 text-blue-700 font-bold uppercase tracking-widest text-sm'>
-              <FaBookOpen /> <span>Academic Publications</span>
+              <FaBookOpen /> <span> Publications</span>
             </div>
             <h1 className='text-5xl md:text-6xl font-bold mb-4 text-gray-900 leading-tight'>
               Equipping the Next{" "}
