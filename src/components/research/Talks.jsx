@@ -4,9 +4,7 @@ const talks = [
     description:
       "This webinar focuses on science communication and shares insights from two early-career scientists who have experience in science communication as part of their research programs and positions. Following presentations from the speakers, there was a moderated panel discussion with a particular emphasis on providing tips and tricks on how to communicate your science effectively, and how to better motivate members of the global younger chemistry community.Join us to hear from: Ts. Dr. Magaret Sivapragasam – Head of Programme (Foundation in Science) Lecturer (BSc. Hons Biotechnology), Faculty of Science & Technology, Quest International University, Malaysia (@MagaretSiva) Dr. Lydia Sosa Vargas – Institut Parisien de Chimie Moléculaire, Sorbonne University, France (@Dr_curieosity) Please be advised that the comments made by participants in our webinars may not reflect the values of ChemVoices and its partner organizations, IYCN and IUPAC.",
     videoId: "xSYc3KyAL_Y",
-    event:
-      "International Conference on Nanotechnology & Biomedical Engineering",
-    year: "2024",
+    event: "International Younger Chemists Network Webinar Series",
   },
 ];
 
