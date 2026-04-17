@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import speakerProfileImage from "../assets/images/IMG-20260110-WA0035.jpg";
+import Talks from "../components/MediaTalks";
 
 const speakingTopics = [
   // need to change the description for the title
@@ -96,7 +97,9 @@ const Speaking = () => {
           ))}
         </div>
       </section>
-
+      <section>
+        <Talks />
+      </section>
       {/* CTA */}
       <section className='py-24 px-6 bg-gray-100 text-center'>
         <motion.div
