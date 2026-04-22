@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import logo from "../assets/GW-Teck_Solution-logo-transparent-removebg-preview.png";
 import {
   FaInstagram,
   FaLinkedin,
@@ -121,7 +122,22 @@ const Footer = () => {
           Chat with us
         </span>
       </div>
+      {/* Powered by section */}
+      <div className=' flex flex-col md:flex-row items-center justify-center '>
+        <img
+          src={logo}
+          alt='GW-Teck Solutions Logo'
+          className='w-50 h-20' // adjust size as needed
+        />
 
+        <p className='text-gray-400 text-[10px]'>
+          Powered by <strong>GW-Teck Solutions</strong> | Contact:
+          {"+2348066168225"} |{" "}
+          <a href='godswilleguavoen@gmail.com' className='underline'>
+            Email Me
+          </a>
+        </p>
+      </div>
       {/* SCROLL TO TOP */}
       {showScroll && (
         <button
